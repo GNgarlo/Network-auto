@@ -13,8 +13,8 @@ with open("inventario.txt") as olts:
         olts = {
             'device_type' : 'nokia_sros',
             'host' : IP,
-            'username' : 'g.casseus',
-            'password' : 'eemcegv5Tx58' 
+            'username' : 'xxxx',
+            'password' : 'xxxxx' 
         }
         print('Connecting to:' + IP )
         net_connect = ConnectHandler(**olts)
